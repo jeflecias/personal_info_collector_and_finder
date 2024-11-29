@@ -13,6 +13,7 @@ try:
                         print(entire_txt[c],end='')
             if if_found == 0:
                 print("Name not found!")
+            cont_2 = input("Would you like to seek another person? yes/no ")
             while not cont_2.lower().strip() in ["yes","no"]:
                 cont_2 = input("Would you like to seek another person? yes/no ")
 except:
