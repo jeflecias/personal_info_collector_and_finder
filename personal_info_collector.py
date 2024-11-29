@@ -15,3 +15,11 @@ while cont_1 == "yes":
     criminal_record = input("Do you have a criminal record? ")
     people_array.append([name,age,birthday,blood_type,criminal_record])
     cont_1 = input("Would you like to input another person? yes/no ")
+
+#write file
+with open("list_of_people.txt","w") as file:
+    for i in people_array:
+        for b in i:
+            file.write(b + "\n")
+        file.write("-----------------------------------------\n")
+
