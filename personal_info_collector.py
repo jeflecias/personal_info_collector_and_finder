@@ -80,7 +80,7 @@ while cont_1 == "yes":
         ["Name: " + name,
          "Age: " + str(age),
          "Birthday: " + birthday,
-         "Blood type: " + blood_type,
+         "Blood type: " + blood_type.upper(),
          "Criminal record: " + criminal_record]
          )
 
