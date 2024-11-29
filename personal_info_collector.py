@@ -57,7 +57,7 @@ while cont_1 == "yes":
     while True:
         try:
             birthday_year = int(input("When is your birth year? "))
-            if birthday_year < 0 or birthday_year > 2024:
+            if birthday_year < 1930 or birthday_year > 2024:
                 raise
             break
         except:
