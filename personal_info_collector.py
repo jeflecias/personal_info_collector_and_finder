@@ -1,1 +1,0 @@
-# this program asks the user to input their personal information
