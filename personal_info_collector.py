@@ -1,4 +1,2 @@
-# this program asks the user to put their info (min. of 5)
-
-people_info = []
+# this program asks the user to input their personal details (minimum of 5)
 
