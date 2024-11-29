@@ -5,7 +5,7 @@ try:
         cont_2 = "yes"
         while cont_2 == "yes":
             if_found = 0
-            find_name = input("Who do you wish to seek? ")
+            find_name = input("Who do you wish to seek? (case sensitive)")
             for a,b in enumerate(entire_txt):
                 if find_name.strip() in b:
                     if_found += 1
